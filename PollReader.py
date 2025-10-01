@@ -114,6 +114,7 @@ class PollReader():
             return (harris_sum / count, trump_sum / count)
         else:
             return (0.0, 0.0)
+        
         pass
 
 
