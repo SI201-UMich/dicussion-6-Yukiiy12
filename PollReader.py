@@ -137,6 +137,7 @@ class PollReader():
         late_trump = sum(self.data_dict['Trump result'][:30])/ 30
 
         return ((late_harris - early_harris), (late_trump - early_trump))
+    #  this is a placeholder to make sure your function has a return value
 
 
         
